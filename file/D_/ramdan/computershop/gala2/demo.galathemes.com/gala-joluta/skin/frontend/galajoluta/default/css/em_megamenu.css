@@ -1,0 +1,472 @@
+/*
+Item Name : CSS3 Mega Drop Down Menu
+Author URI : http://themeforest.net/user/Keliah
+Item URI : http://codecanyon.net/item/css3-mega-drop-down-menu/126387
+Version : 2.1
+*/
+
+/*
+
+TABLE OF CONTENTS
+
+01 MENU BAR
+02 DROP DOWN MENU
+03 CONTENT STYLINGS
+04 CONTACT FORM
+
+*/
+
+
+
+/*  _______________________________________
+
+	01 MENU BAR
+    _______________________________________  */
+
+
+.menu li.submenu li.level-top a.level-top:hover,.menu li.submenu li.level-top:hover a.level-top{ background:none; line-height:20px;}
+.menu { list-style:none; width:960px;	float:left;	font:bold 12px/20px "Myriad Pro", Arial,Helvetica,sans-serif;}
+.menu li { float:left; text-align:center; position:relative; padding: 0;  color:#505050; height:50px; }
+.menu li div li{	height:auto;}	
+.menu li:hover {z-index:2; cursor:default;}
+.menu li.submenu:hover{ height:50px;}
+.menu li.first:hover{ height:50px;}
+.menu li.last:hover{ height:50px;}
+.menu li div a { text-transform: capitalize;}
+.menu li div p a {padding:0!important; }
+.menu li small{	font-size:10px; color:#fff; display:none; line-height:10px;}	
+.menu li a {color: #fff; outline: 0 none; padding:0 17px; text-align:center; font-size:16px;font-weight:bold; line-height:35px; text-decoration: none; text-transform: normal; display:block;}
+.menu li:hover a{ color:#fff;}
+li.submenu li a{text-transform:capitalize!important;}
+.menu li.submenu{}
+.menu li.submenu a,.menu li.level-top a.level-top{line-height:50px;} 
+.menu li.li_menu{padding:0;}
+.menu li.li_menu:hover a{ padding:0 17px 0 17px; line-height:34px; border-bottom:1px solid #5db6c0;}
+.menu li.submenu:hover a,.menu li.level-top:hover a.level-top{	padding:0 17px 0 17px; line-height:50px; border-bottom:0px; }
+.menu li.submenu.first:hover a{	padding:0 17px 0 17px; line-height:50px; border-bottom:0px; }
+.menu li.submenu.last:hover a{	padding:0 17px 0 17px; line-height:50px; border-bottom:0px; }
+
+.menu li.submenu:hover ul li a{ line-height:20px;}
+.menu li.submenu:hover div a{ line-height:20px; background:none;}
+.menu li.submenu.first:hover  div a{background:none; line-height:20px;}
+.menu li.submenu.last:hover  div a{background:none; line-height:20px;}
+
+.menu li .drop { padding-right:17px;}
+.menu li:hover .drop { padding-right:17px;	background:none;}
+.menu li:hover div a { text-align:left; border-bottom:0; line-height:20px; color:#eeeded;	font:normal 12px/20px "Myriad Pro", Arial,Helvetica,sans-serif; text-transform:capitalize; }
+.menu li:hover div a:hover {	color:#eeeded; line-height:20px; text-decoration:underline;}
+
+/* note : co the error
+.menu li ul li a{line-height:20px;}
+.menu li:hover ul li a {line-height:20px; font-size:10px;}
+.menu li:hover ul li a:hover{line-height:20px;}
+ */
+
+.menu li div span {	color:#fff; line-height:20px; border-bottom:0px; padding:0px 20px; font:bold 16px/20px "Myriad Pro", Arial,Helvetica,sans-serif; }
+.menu li.right div span, 
+.menu li div p span,
+.menu li div a span {padding:0;}
+.menu li.right div span{padding:0 15px;} 
+.menu li ul li a:hover {
+	color:#a28748;
+	line-height:20px;
+}
+
+/* Right aligned menu item */
+
+.menu .right {
+	float:right;
+	right:0;
+	margin-right:0px;
+}
+
+
+
+/*  _______________________________________
+
+	02 DROP DOWN MENU
+    _______________________________________  */
+
+
+
+/* Left & right aligned common styles */
+
+.menu .dropdown_1columns, 
+.menu .dropdown_2columns, 
+.menu .dropdown_3columns, 
+.menu .dropdown_4columns,
+.menu .dropdown_5columns { margin:4px auto; left:-999em; position:absolute; border-top:none; padding:15px 0 20px 7px; text-align:left; }
+.menu .dropdown_1columns_inner, 
+.menu .dropdown_2columns_inner, 
+.menu .dropdown_3columns_inner, 
+.menu .dropdown_4columns_inner,
+.menu .dropdown_5columns_inner {float:left;padding-bottom:15px;}
+
+/* Drop Downs Sizes */
+
+.menu .dropdown_1columns {width: 145px;}
+.menu .dropdown_1columns_inner {width: 145px;}
+.menu .dropdown_2columns {width: 290px;}
+.menu .dropdown_2columns_inner {width: 290px;}
+.menu .dropdown_3columns {width: 435px;}
+.menu .dropdown_3columns_inner {width: 435px;}
+.menu .dropdown_4columns {width: 610px;}
+.menu .dropdown_4columns_inner {width: 610px;}
+.menu .dropdown_5columns {width: 765px;}
+.menu .dropdown_5columns_inner {width: 765px;}
+
+/* Showing Drop Down on Mouse Hover - Left aligned */
+
+.menu li:hover .dropdown_1columns, 
+.menu li:hover .dropdown_2columns, 
+.menu li:hover .dropdown_3columns,
+.menu li:hover .dropdown_4columns,
+.menu li:hover .dropdown_5columns {
+	left:0px;
+	top:46px;
+}
+
+/* Showing Drop Down on Mouse Hover - Right aligned */
+
+.menu li .align_right {
+}
+.menu li:hover .align_right {
+	left:auto; right:0px; top:46px;  }
+
+/* Columns Sizes */
+
+.menu .col_1,
+.menu .col_2,
+.menu .col_3,
+.menu .col_4,
+.menu .col_5,
+.menu .col_6 {
+	display:inline;
+	float: left;
+	position: relative;
+}
+.menu .col_1 {width:145px;}
+.menu .col_2 {width:300px;}
+.menu .col_3 {width:455px;}
+.menu .col_4 {width:610px;}
+.menu .col_5 {width:765px;}
+.menu .col_6 {width:920px;}
+
+/* IMPORTANT */
+
+/* Use the firstcolumn class for the items that stick to the left edge of the dropdown */
+.menu .firstcolumn {
+	margin-left: 0; /* Clearing margin & left */
+	clear: left;
+}
+
+
+
+/*  _______________________________________
+
+	03 CONTENT STYLINGS
+    _______________________________________  */
+
+
+
+.menu p,
+.menu ul,
+.menu h2,
+.menu h3 { font:bold 14px/20px "Myriad Pro", Arial,Helvetica,sans-serif; text-align:left;}
+.menu p { font-weight:normal; font-size:12px; line-height:20px; margin-bottom:10px; color:#fff; padding:0 15px;}
+.menu .strong {
+	font-weight:bold;
+}
+.menu .italic {
+	font-style:italic;
+}
+.menu h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:400;
+	letter-spacing:-1px;
+	font-size:21px;
+	line-height:21px;
+	margin-top:7px;
+	margin-bottom:14px;
+	padding-bottom:14px;
+}
+.menu h3 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:600;
+	font-size:14px;
+	line-height:21px;
+	margin-top:7px;
+	margin-bottom:14px;
+	padding-bottom:7px;
+}
+.menu .pusher { /* Use this pucher if you want to give more vertical spacing between your rows of content */
+	margin-top:18px;
+}
+
+/* Icon paragraphs */
+
+.menu .help,
+.menu .favorite,
+.menu .mail,
+.menu .print {
+	padding-left:36px;
+	margin-bottom:18px;
+}
+
+/* Images styles */
+
+.menu .imgshadow_dark{ /* Better style on dark background */
+	background:#FFFFFF;
+	padding:4px;
+	border:1px solid #333333;
+	margin-top:5px;
+}
+.menu .imgshadow_light { /* Better style on light background */
+	background:#FFFFFF;
+	padding:4px;
+	border:1px solid #777777;
+	margin-top:5px;
+}
+.menu .img_left { /* Image sticks to the left */
+	width:auto;
+	float:left;
+	margin:2px 15px 5px 0px;
+}
+.menu .img_right { /* Image sticks to the right */
+	width:auto;
+	float:right;
+	margin:2px 0px 5px 15px;
+}
+
+/* Box styles */
+
+.menu li .black_box {
+	background-color:#333333;
+	color: #eeeeee;
+	margin:4px 6px;
+}
+
+.menu li .dark_grey_box {
+	background-color:#555555;
+	color: #eeeeee;
+	margin:4px 6px;
+}
+
+/* Standard lists styles */
+
+.menu li ul {
+	list-style:none;
+	padding:0;
+	margin:0 0 12px 0;
+}
+.menu li ul li {
+	font-size:12px;
+	line-height:24px;
+	position:relative;
+	padding:0;
+	margin:0;
+	float:left;
+	text-align:left;
+	width:145px;
+}
+.menu li ul li:hover,
+.menu li ul li.first:hover ,
+.menu li ul li.last:hover { background:none; border:none; height:auto; line-height:20px; padding:0; margin:0;}
+.menu li ul li:hover a{ font:normal; line-height:20px;}
+ 
+/* Greybox lists styles */
+
+.menu li .greybox li {
+	margin:0px 0px 4px 0px;
+	padding:4px 6px 4px 6px;
+	width:131px;
+}
+.menu li .greybox li:hover {
+	padding:4px 6px 4px 6px;
+	margin:0px 0px 4px 0px;
+}
+
+/* Other lists styles */
+
+.menu li .plus li {
+	background: url("../../../../../../../../../../../../demo.galathemes.com/gala-joluta/skin/frontend/galajoluta/default/css/img/plus.html") left 6px no-repeat;
+	margin:0px 0px 4px 0px;
+	padding:0px 0px 0px 21px;
+	width:109px;
+}
+.menu li .plus li:hover {
+	background: url("../../../../../../../../../../../../demo.galathemes.com/gala-joluta/skin/frontend/galajoluta/default/css/img/plus.html") left 6px no-repeat;
+	padding:0px 0px 0px 21px;
+	margin:0px 0px 4px 0px;
+}
+
+/* Social Icons */
+
+.menu li ul.social {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.menu li ul.social li {
+	padding-top:5px;
+	margin:0 12px 12px 0;
+	float:left;
+	position:relative;
+	display:inline;
+	width:32px;
+}
+.menu li ul.social li:hover {
+	padding-top:5px;
+	margin:-1px 12px 12px 0;
+}
+.menu li ul.social li span {
+	display:none;
+}
+
+/* 2-Levels Drop Down */
+
+.menu .levels { list-style:none;	margin:0; padding:0; width:145px;}
+
+.menu ul.levels li a.parent,
+.menu ul.levels li:hover a.parent,
+.menu ul.levels li.parent:hover,
+.menu ul.levels li.parent{}
+.menu ul.levels li li a.parent,
+.menu ul.levels li li:hover a.parent,
+.menu ul.levels li li.parent:hover,
+.menu ul.levels li li.parent{}
+.menu .levels li li, .menu .levels li li:hover {	width:129px; padding: 0px 12px 0px 12px; margin:0px;}
+.menu .levels li li,
+.menu .levels li li:hover,
+.menu .levels li li.first,
+.menu .levels li li.first:hover,
+.menu .levels li li.last,
+.menu .levels li li.last:hover {padding: 0px 8px;}
+.menu .levels li li a, .menu .levels li li a:hover{}
+.menu .levels ul { /* First level drop down */
+	position:absolute; z-index:500; top:-23px; left:100%; display:none; width:145px; margin:15px 0px 0px 0px; padding:0px 0px 3px 0px;
+}
+.menu .levels ul ul {
+	top:-6px;
+	left:100%;
+	width:145px;
+	margin:-1px 0px 0px 0px;
+}
+.menu .levels li:hover { cursor:pointer; z-index:100;}
+.menu .levels li:hover ul ul,
+.menu .levels li li:hover ul ul{display:none;}
+
+.menu .levels li:hover ul,
+.menu .levels li li:hover ul{display:block;}
+
+
+
+
+
+/*  _______________________________________
+
+	04 CONTACT FORM
+    _______________________________________  */
+
+
+
+.menu form {
+	margin:0 0 12px 0;
+	padding:0px;  display: block;
+}
+
+/* Labels & fieldsets stylings */
+
+.menu fieldset {
+	margin:0;
+	border:none;
+}		
+.menu form p {
+	margin:10px 0;
+	overflow:hidden;
+	width:270px;
+}
+
+.menu label {
+	float:left;
+	display:block;
+	text-align:left;
+	width:50px;
+}	
+.menu input,
+.menu textarea {	
+	margin:0;	
+	width:170px;
+	float:right;
+	color:#000;	
+	background-color:#333333;
+	border:1px solid #222222;
+	padding:3px 5px 3px 5px;
+}		
+.menu textarea {
+	height:100px;
+	overflow:auto;
+}
+				
+
+/* Buttons stylings */
+
+.menu button {
+	float:right;
+	width:80px;
+	margin:0px;
+	margin-right:30px;
+	border:none;
+	padding: 2px 7px 2px 7px;
+	color:#eeeeee;	
+	background-color:#333333;
+}
+
+/* Messages when sending email */
+
+.error, .sent {
+	font-size:12px;
+	line-height:18px;
+	padding:5px;
+	margin-bottom:10px;
+}
+.error {
+	background:#f3afa6;
+	border:#ef9588 solid 1px;
+	color:#992213;
+}
+.sent {
+	background:#bef08f;
+	border:#adec71 solid 1px;
+	color:#37620d;
+}
+.menu li.position-right-li{ position:static}
+.menu li:hover div.position-right{	position:absolute; right:0; left:auto; top:46px; }
+
+/*============================Contact*/	
+
+.menu input,
+.menu textarea {	
+	margin:0;	
+	width:170px;
+	float:right;
+	background-color:#fff;
+}
+.menu li .align_right {width:auto; padding: 0 0 0 15px;}
+#contactForm .form-list .field{ width:285px; margin-right:0; }
+#contactForm .fieldset{padding:0px 25px 0 0; }
+.menu li.right .page-title{ display:none; }
+#contactForm  h2.legend{ display:none;}
+#contactForm label{ float:left; color:#eeeded; text-transform:capitalize; width:auto; }
+#contactForm input.input-text,#contactForm li textarea{ width:200px; background:#fefefe; border:1px solid #eeeded ; }
+#contactForm fieldset { paddding:0; margin:0;}
+#contactForm .form-list li,#contactForm .form-list li.wide .input-box { width:285px; }
+#contactForm .form-list .input-box { clear:none;display:inline; }
+#contactForm input.input-text:focus,#contactForm textarea:focus { background-color:#f2feff; color:#000;}
+#contactForm .buttons-set p.required{ width:282px; text-align:right; padding: 0 15px 0 0; }
+#contactForm .validation-advice { text-align:right; margin:3px 0 5px;}
+#contactForm .buttons-set button.button{ float:right; margin: 0 15px 0 0; text-align: center; width: auto;}
+#contactForm .buttons-set button.button span{ background:none; line-height:30px; padding-top:0px; font: 12px/30px Arial,Helvetica,sans-serif; font-weight:normal; text-transform:capitalize; padding:0 15px;}
+#contactForm .buttons-set button.button span span{padding:0;}
+#contactForm .form-list li.wide textarea{margin-bottom:5px;}
+.menu li.right div span {display: block; padding: 15px 0 0;}

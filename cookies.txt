@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+demo.galathemes.com	TRUE	/gala-joluta	FALSE	1999999999	frontend	ctmatati4gh2ln08pje8k3rca0
+

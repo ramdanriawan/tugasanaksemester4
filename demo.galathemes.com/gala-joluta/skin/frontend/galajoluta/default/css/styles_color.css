@@ -1,0 +1,153 @@
+/**
+ * Style Color Default 
+ */
+ 
+ /* Form lists */
+ /* Grouped fields */
+ .form-list label.required em {color:#cb4904;}
+ p.required {color:#cb4904}
+ 
+ /* Global Messages  */
+ .success-msg{ background-image:url(../images/i_msg-success.gif); color:#cb4904; }
+ 
+ /* Button - Public */ 
+ button.button span {background:url(../images/btn4.png) 100% -30px no-repeat; }
+ 
+ /* Header */ 
+ .header .welcome-msg-content  a span{color:#d64909;}
+ .header .links li.li-top-link-cart a .title{color:#c64002;}
+ .header .links li.checkout-link a {color:#c74003;}
+ .header .links li.li-top-link-cart strong{color:#c74003;}
+ 
+ /* Menu */ 
+ .menu { background:url(../images/bkg-nav.png) 0 0 no-repeat;}
+ .menu li.submenu:hover a, .menu li.level-top:hover a.level-top{ background:url(../images/bkg-submenu-a-hover.png) bottom center no-repeat;}
+ .menu li.submenu.first:hover a, .menu li.level-top.first:hover a.level-top{ background:url(../images/bkg-submenu-first-a-hover.png) bottom left no-repeat;}
+ .menu li.submenu.last:hover a, .menu li.level-top.last:hover a.level-top{ background:url(../images/bkg-submenu-last-a-hover.png) bottom right no-repeat;}
+ .menu .dropdown_1columns, 
+ .menu .dropdown_2columns, 
+ .menu .dropdown_3columns, 
+ .menu .dropdown_4columns,
+ .menu .dropdown_5columns {background:url(../images/bkg-submenu-div.png) 0 0 repeat;}
+ .menu ul.levels li a.parent,
+ .menu ul.levels li:hover a.parent,
+ .menu ul.levels li.parent:hover,
+ .menu ul.levels li.parent{ background: url(../images/drop2.png) 90% 9px no-repeat;}
+ .menu ul.levels li li a.parent,
+ .menu ul.levels li li:hover a.parent,
+ .menu ul.levels li li.parent:hover,
+ .menu ul.levels li li.parent{ background: url(../images/drop2.png) 90% 9px no-repeat;}
+ .menu .levels ul { background: url(../images/bkg-submenu-div.png) 0 0 repeat; }
+ .menu .levels ul ul {	background: url(../images/bkg-submenu-div.png) 0 0 repeat; }
+ 
+ /* Menu default */
+ #nav{background:url(../images/bkg-nav.png) 0 0 no-repeat;}
+ #nav li.active a{ background:url(../images/bkg-submenu-a-hover.png) bottom center no-repeat;}
+ #nav li.level-top:hover a{ text-decoration:none;  background:url(../images/bkg-submenu-a-hover.png) bottom center no-repeat;}
+ #nav ul,
+ #nav div {background: url(../images/bkg-submenu-div.png) 0 0 repeat;}
+ #nav li.level-top.active.first a,
+ #nav li.level-top.first a:hover{background:url(../images/bkg-submenu-first-a-hover.png) bottom left no-repeat; }
+ #nav ul li a.parent,
+ #nav ul li:hover a.parent,
+ #nav ul li.parent:hover,
+ #nav ul li.parent{
+ 	background: url("../images/drop2.png") 90% 9px no-repeat;
+ }
+ 
+/* BreadCrumbs */
+ .breadcrumbs {background:url(../images/bkg-breadcrumbs.gif) left bottom  repeat;}
+ 
+ /* Main Slideshow */ 
+ a.sl-button span{color:#c74003; }
+ 
+ /* Misc */
+ .link-wishlist { background:url(../images/btn_wishlist.png) 0 0 no-repeat; }
+ .link-compare { background:url(../images/btn_compare.png) 0 0 no-repeat;}
+ 
+ /* Block */ 
+.block .price {color:#ce4005; }
+.block .sku{color:#da4101;}
+ 
+.block-subscribe label {color:#f68652;}
+.block-subscribe .actions button.button span {background:url(../images/btn7.png) 100% -30px no-repeat; padding: 0 3px 0 0; }
+.block-subscribe .actions button.button span span{ background-position: 0 0; padding: 0 14px 0 17px;}
+ 
+.block-layered-nav dt {color:#df5206; }
+
+.block-cart .amount a { color:#e14a0b; }
+.block-cart .subtotal .price { color:#d74001; }
+.block-cart .mini-products-list .product-details {color:#ce4005; }
+
+.block-poll button.button span {background:url(../images/btn7.png) 100% -30px no-repeat; padding: 0 3px 0 0; }
+.block-poll button.button span span{ background-position: 0 0; padding: 0 14px 0 17px;}
+
+ /* Compare Product */
+ .compare-table tr.first td .product-name a {color:#c04502; }
+ .compare-table .price {color:#c04502;}
+ 
+ /* Category Product */
+ .products-list .product-name a { color:#c74103; }
+ .products-list .price {color:#c74103;}
+ 
+ .products-grid .price { color: #d84d02;}
+ 
+ .pager-bottom .pages ol li.current {color: #fff; background:url(../images/bkg-pager-current.gif) center center no-repeat;}
+ 
+ /* Rating */
+ .rating-box {background:url(../images/rating-top.png) 0 0 repeat-x;}
+ .rating-box .rating { background:url(../images/rating-bottom.png) 0 0 repeat-x; }
+ 
+ /* Product View */
+ .product-view .product-shop .product-name h1 {color:#c74103}
+ .product-view .product-shop .short-description h2 {color:#c74103;}
+ .product-view .product-shop .price-box .price {color:#c74103;}
+ .product-options dt label  em{color: #CB4904;}
+ .grouped  .price {color:#c74103;}
+ .product-options-bottom .price {color:#c74103;}
+ .product-view  .block-related .block-title strong {color:#c94803;}
+ .product-view  .block-related .price{color:#c94803;}
+ .product-view .box-reviews  h2{ color: #c94803;}
+ .product-view .box-reviews dl h3 a{ color:#c94803; }
+ .product-view .box-up-sell  .price {color:#c94803;}
+ .product-essential h2,
+ .product-collateral h2 {color:#c94803;}
+ 
+ /* Shopping Cart */
+ .cart-table .sku{color:#cb4904; }
+ .cart .cart-collaterals h2 {color:#cb4904;}
+ .cart .crosssell .products-grid .price{color:#cb4904;}
+ 
+ /* Checkout Cart */
+ #login-form p.required {color:#cb4904}
+ .multiple-checkout .price{color:#cb4904;}
+ 
+ /* My Account */
+ .dashboard .col-1 .box .box-title a ,
+ .dashboard .col-2 .box .box-title a {background: url(../images/btn-ma-edit.png) center center no-repeat;}
+ 
+ /* Login */
+.account-login .content h2 {color:#c84803;}
+.account-create .page-title h1{ color:#c84803; }
+
+ /* Footer */
+ .footer-top h2{color:#c13e02;} 
+ .footer-top p.readmore a.detail{ color:#e34c08; background:url(../images/i-next-1.gif) center right no-repeat; padding-right:20px;}
+ .footer address a { color:#da5315;}
+ .footer .block-poll .block-subtitle {color:#f68652;}
+ 
+ /* Extends top */
+ .extends-top .slider-wrapper-1-inner{background:url(../images/bkg-slider-1.png) left bottom  no-repeat; }
+ 
+ /*Tab Slideshow */
+.tab-products .tab_slideshow a.current span{color:#e84c0d; }
+ /* Extends bottom */
+ .list-bottom li.item .price{color:#e84c0d; }
+ .tab-products  li.item .price{color:#c03d01;}
+ 
+ /* Slideshow */
+ 
+ #slideshow2 li.item .price {color:#c03d01;}
+ 
+ #contactForm .buttons-set button.button{background:#c03d01;}
+ 
